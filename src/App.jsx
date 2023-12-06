@@ -42,7 +42,7 @@ function App() {
    <ul> {
        contact ? (<SingleContact contact={contact}/>) : null
     }</ul>
-    <AllContacts contactList={contactList} hash={hash}/>
+    <h1><AllContacts contactList={contactList} hash={hash}/></h1>
 
   </div>
   )
