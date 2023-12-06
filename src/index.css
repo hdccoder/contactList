@@ -12,7 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.selected {
+  background-color:#6cb694; solid;
+}
 a {
   font-weight: 500;
   color: #f6f6f6;
@@ -60,7 +62,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #98cd5b;
+    color: #a7f310;
   }
   button {
     background-color: #f9f9f9;
